@@ -5,7 +5,7 @@
 
 	const cheatedCoin = () => {
 		cheatedCoin.totalFlips = (cheatedCoin.totalFlips ?? 0) + 1;
-		return Math.random() < 0.6;
+		return Math.random() < 0.75;
 	};
 	const fairCoin = () => {
 		fairCoin.totalFlips = (fairCoin.totalFlips ?? 0) + 1;
@@ -21,11 +21,11 @@
 	const [fairPlayers, cheaters] = sim(coinArr);
 
 	function clr(text, ...args) {
-		let strOut = '\x1b[30m' + text[0];
+		let strOut = '\x1b[39m' + text[0];
 
 		for (let i = 1; i < text.length; i++) {
 			strOut +=
-				'\x1b[34m' + Math.round(args[i - 1] * 10) / 10 + '\x1b[30m' + text[i];
+				'\x1b[1;34m' + Math.round(args[i - 1] * 10) / 10 + '\x1b[39m' + text[i];
 		}
 
 		return strOut;

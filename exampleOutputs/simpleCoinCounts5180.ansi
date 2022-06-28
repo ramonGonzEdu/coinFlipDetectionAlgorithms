@@ -1,0 +1,7 @@
+[39mOut of [1;34m49974[39m suspected cheaters, only [1;34m49541[39m were cheaters. That is a [1;34m0.9[39m% error rate.
+[39mOut of [1;34m50026[39m fair players, only [1;34m49608[39m were fair. That is a [1;34m0.8[39m% error rate.
+[39mOut of [1;34m49959[39m cheaters, only [1;34m49541[39m were caught. That is a [1;34m99.2[39m% success rate. Target is >[1;34m80[39m%.
+[39mOut of [1;34m50041[39m fair players, only [1;34m49608[39m were let go. That is a [1;34m99.1[39m% success rate, or a [1;34m0.9[39m% false positive rate. Target is <[1;34m5[39m%.
+[39mCheaters flipped their coins [1;34m80[39m times on average, for a total of [1;34m3996720[39m flips.
+[39mFair players flipped their coins [1;34m80[39m times on average, for a total of [1;34m4003280[39m flips.
+[39mTotal coins flipped [1;34m8000000[39m times.
